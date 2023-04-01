@@ -1,12 +1,12 @@
-### E-commerce Website Project ###
+# E-commerce Website Project
 This project is a simple e-commerce website that allows users to browse and purchase items. The website consists of three pages: the landing page, the cart page, and the payment gateway page.
 ![landing_page](https://user-images.githubusercontent.com/122960934/229299623-e83a09d9-7b67-45a1-b59a-b2982cc9b0ff.png)
 
 
-<!-- <h2>Landing Page</h2> -->
+## Landing Page
 The landing page displays a list of items available for purchase. Each item has a name, description, and price. Users can add items to their cart by clicking the "Add to Cart" button. The number of items in the cart is displayed on the cart icon at the top of the page. The data of items in the cart is stored in local storage.
 
-<!-- <h2>Cart Page</h2> -->
+## Cart Page
 The cart page displays a list of items that the user has added to their cart. The items are displayed in a top-down fashion, along with the item name, description, quantity, and price. Additionally, the cart page displays the total price of all items, the discounted 10% price, and the final payable price.
 
 Users can click the "Place Order" button to proceed to the payment gateway page.
