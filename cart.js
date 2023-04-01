@@ -14,9 +14,9 @@ function getLocalData(){
     console.log(cartItems)
     console.log(trendingCard)
 }
-function updateSelItemsCount(){
+function updateSelItemsCount(cnt){
     const selItemCnt = document.getElementsByClassName('js-sel-item-cnt')[0];
-    selItemCnt.textContent = cartItems.length;
+    selItemCnt.textContent = cnt;
 }
 
 function updateTotalPrice(selectedItems){
@@ -36,12 +36,12 @@ function updateTotalPrice(selectedItems){
 }
 
 function renderSelectedItems(){
-    updateSelItemsCount();
+    
     const jsSelItemContainer = document.getElementsByClassName('selected-item')[0];
     let selectedItems = trendingCard.filter(card =>
         cartItems.includes(card.id)
     )
-
+    updateSelItemsCount(selectedItems.length);
     updateTotalPrice(selectedItems);    
 
     const fragment = document.createDocumentFragment();
