@@ -19,31 +19,60 @@
   </head>
   <body>
     <div class="header d-flex sp-between">
-      <div class="head-left w-50 d-flex f-vcenter">
-       <a href="./index.html">
+      <a href="./index.html">
         <img class="logo" src="./logo.png" alt="logo" />
-       </a>
-        <span class="h-item">MEN</span>
-        <span class="h-item">WOMEN</span>
-        <span class="h-item">KIDS</span>
+      </a>
+      <div class="cart-text">
+        <span class="green">100% &nbsp;</span> secure payments
       </div>
-      
-      <div class="head-right d-flex ">
-        <a class="right-item" href="#">
-          <i class="fa fa-light fa-user"></i>
-        </a>
-        <a class="right-item js-cart-click" href="./cart.html">
-          <i class="fa fa-cart-shopping "><span class="count js-cart">0</span></i>
-        </a>
-      </div>
+    </div>
+    <div class="checkout-wrapper">
+      <div class="checkout d-flex js-checkout">
+        <!-- <h2 class="cart-empty">Cart Is Empty - Add Items into Cart </h2> -->
 
-    </div>
-    <div class="banner">
-      <img class="banner-img" src="./banner.jpg" alt="banner-img" />
-    </div>
-    <h2 class="h2">Trending Products</h2>
-    <div class="js-card-container d-flex f-wrap">
-      <!-- js cards rendered here -->
+        <div class="selected-item">
+          <h2>Selected Items : <span class="js-sel-item-cnt"></span></h2>
+
+          <!-- <div class="sel-card">
+            <img class="sel-card-img" src="./placeorder-banner.avif"  alt="card image">
+            <div class="sel-card-info">
+              <div class="sel-card-title">title</div>
+              <div class="sel-card-text">RS. </div>
+              <div class="sel-card-text">QTY. 1</div>
+            </div>
+          </div> -->
+         
+        </div>
+        <div class="place-order-item">
+          <img class="order-banner" src="./placeorder-banner.avif" alt="" />
+          <div class="order-info">
+            <h4 class="h4">Price Details</h4>
+            <div class="order-text">
+              <span>Total MRP</span><span class="total-price">12345</span>
+            </div>
+            <div class="order-text">
+              <span>Discount on MRP</span
+              ><span class="discount col-green">123</span>
+            </div>
+            <div class="order-text">
+              <span>Coupon Discount</span
+              ><span class="col-red">Apply Coupon</span>
+            </div>
+            <div class="order-text">
+              <span>Convenience Fee</span>
+              <span class="conv-fee"
+                ><span class="strike">99</span>
+                <span class="col-green">FREE</span></span
+              >
+            </div>
+            <div class="total-amt order-text">
+              <span>Total Amount</span>
+              <span class="total">615</span>
+            </div>
+            <div class="place-order">PLACE ORDER</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer d-flex f-dir-col">
@@ -79,8 +108,6 @@
       <p>&copy; 2023 by Pradip Patra</p>
     </footer>
 
-    <script src="./script.js"></script>
-
-   
+    <script src="./cart.js"></script>
   </body>
 </html>
