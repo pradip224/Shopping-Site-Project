@@ -1,6 +1,6 @@
 let cardContainer;
 let trendingCard;
-let cartItems =[];
+let cartItems = [];
 
 function getApiData() {
   fetch("https://fakestoreapi.com/products")
@@ -9,8 +9,7 @@ function getApiData() {
       trendingCard = data;
       renderCards(trendingCard);
       bindEvents();
-      localStorage.setItem('trendingCard',JSON.stringify(trendingCard));
-      
+      localStorage.setItem("trendingCard", JSON.stringify(trendingCard));
     });
 }
 
@@ -82,32 +81,28 @@ function createCard(id, image, title, desc, price) {
 // function handleAddToCartClick(e) {
 //   console.log(e);
 // }
-function updateCartCount(){
-    const cartCount = document.getElementsByClassName('js-cart')[0];
-    const textNode = document.createTextNode(cartItems.length);
-    cartCount.innerHTML = '';
-    cartCount.appendChild(textNode); 
-    storeCartItem();
-
+function updateCartCount() {
+  const cartCount = document.getElementsByClassName("js-cart")[0];
+  const textNode = document.createTextNode(cartItems.length);
+  cartCount.innerHTML = "";
+  cartCount.appendChild(textNode);
+  storeCartItem();
 }
-function storeCartItem(){
-  localStorage.setItem('cartItems',JSON.stringify(cartItems));
+function storeCartItem() {
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
 function bindEvents() {
   const addToCartButtons = document.querySelectorAll(".js-add-to-cart");
 
-  addToCartButtons.forEach((button,index) => {
-
+  addToCartButtons.forEach((button, index) => {
     button.addEventListener("click", () => {
-      console.log("clicked index: "+index);
-      cartItems.push(index+1);
-      console.log('cartItems: '+cartItems);
+      console.log("clicked index: " + index);
+      cartItems.push(index + 1);
+      console.log("cartItems: " + cartItems);
       updateCartCount();
     });
   });
-
-
 }
 
 function main() {
