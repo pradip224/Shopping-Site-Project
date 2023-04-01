@@ -11,25 +11,25 @@ The cart page displays a list of items that the user has added to their cart. Th
 
 Users can click the "Place Order" button to proceed to the payment gateway page.
 
-<!-- <h2>Payment Gateway Page</h2> -->
+## Payment Gateway Page
 The payment gateway page allows users to enter their card details, including card number, expiry date, CVV number, and password. After entering the required information, users can click the "Pay Now" button to complete their purchase.
 
-<!-- <h2>Technologies Used</h2> -->
+## Technologies Used
 
-<!-- <ol>HTML</ol> -->
-<!-- <ol>CSS</ol> -->
-<!-- <ol>JavaScript</ol> -->
+- HTML
+- CSS
+- JavaScript
 
 
-<!-- <h2>Installation</h2> -->
+## Installation
 To run this project, simply clone the repository and open the index.html file in your browser.
 
-git clone https://github.com/pradip224/Shopping-Site-Project
-cd Shopping-Site-Project
-open index.html
+- git clone https://github.com/pradip224/Shopping-Site-Project
+- cd Shopping-Site-Project
+- open index.html
 
-<!-- <h2>Credits</h2> -->
+## Credits
 This project was created as part of a web development course. Special thanks to our instructor for guiding us throughout the project.
 
-<!-- <h2>License</h2> -->
+## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this code as you wish.
