@@ -1,7 +1,6 @@
-<!-- <h1>E-commerce Website Project</h1> -->
+###E-commerce Website Project
 This project is a simple e-commerce website that allows users to browse and purchase items. The website consists of three pages: the landing page, the cart page, and the payment gateway page.
 ![landing_page](https://user-images.githubusercontent.com/122960934/229299623-e83a09d9-7b67-45a1-b59a-b2982cc9b0ff.png)
-![isro_proj_scr_shot](https://user-images.githubusercontent.com/122960934/228275010-bf142aff-453e-4e24-835a-ce75739d2e3b.png)
 
 
 <!-- <h2>Landing Page</h2> -->
