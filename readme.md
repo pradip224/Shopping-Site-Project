@@ -1,4 +1,4 @@
-E-commerce Website Project
+<h1>E-commerce Website Project</h1>
 This project is a simple e-commerce website that allows users to browse and purchase items. The website consists of three pages: the landing page, the cart page, and the payment gateway page.
 
 Landing Page
