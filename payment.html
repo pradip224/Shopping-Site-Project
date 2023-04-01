@@ -26,53 +26,51 @@
         <span class="green">100% &nbsp;</span> secure payments
       </div>
     </div>
-    <div class="checkout-wrapper">
-      <div class="checkout d-flex js-checkout">
-        <!-- <h2 class="cart-empty">Cart Is Empty - Add Items into Cart </h2> -->
 
-        <div class="selected-item">
-          <h2>Selected Items : <span class="js-sel-item-cnt"></span></h2>
+    <div class="payment-wrapper ">
 
-          <!-- <div class="sel-card">
-            <img class="sel-card-img" src="./placeorder-banner.avif"  alt="card image">
-            <div class="sel-card-info">
-              <div class="sel-card-title">title</div>
-              <div class="sel-card-text">RS. </div>
-              <div class="sel-card-text">QTY. 1</div>
+        <div class="payment-container">
+            <h2 class="t-center p-head"><span class="col-blue">Coin</span>Pay</h2>
+            <div class="card-number p-item">
+                <div class="p-label">Card Number</div>
+                <div class="p-sub-label">Enter 16 digit card number on the card</div>
+
+                <div class="number-input-parent">
+                    <img class="p-card-img" src="./master_card_logo.png" alt="">
+                <input  type="number " class="input p-card-input" placeholder="Enter Card Number ...">
+                </div>
+                
             </div>
-          </div> -->
-         
+            
+            <div class="cvv p-item d-flex sp-between">
+                <div class="cvv-container">
+                    <div class="p-label">CVV Number</div>
+                    <div class="p-sub-label">Enter 3 or 4 digit number on the card</div>
+                </div>
+                <input class="input" type="number" placeholder="cvv">
+            </div>
+            <div class="expiry p-item d-flex sp-between f-center">
+                <div class="expiry-label-parent">
+                    <div class="p-label">Expirty Date</div>
+                    <div class="p-sub-label">Enter the expiration date of the card</div>
+                </div>
+                <input class="input" type="number" placeholder="dd">
+                <span>/</span>
+                <input class="input" type="number" placeholder="mm">
+            </div>
+            <div class="password p-item d-flex sp-between">
+                <div class="password-label-parent">
+                    <div class="p-label">Password</div>
+                    <div class="p-sub-label">Enter your Dynamic password</div>
+                </div>
+                <input class="input" type="password" placeholder="password">
+            </div>
+            <div class="paynow p-item">
+                PayNow
+            </div>
+
         </div>
-        <div class="place-order-item">
-          <img class="order-banner" src="./placeorder-banner.avif" alt="" />
-          <div class="order-info">
-            <h4 class="h4">Price Details</h4>
-            <div class="order-text">
-              <span>Total MRP</span><span class="total-price">12345</span>
-            </div>
-            <div class="order-text">
-              <span>Discount on MRP</span
-              ><span class="discount col-green">123</span>
-            </div>
-            <div class="order-text">
-              <span>Coupon Discount</span
-              ><span class="col-red">Apply Coupon</span>
-            </div>
-            <div class="order-text">
-              <span>Convenience Fee</span>
-              <span class="conv-fee"
-                ><span class="strike">99</span>
-                <span class="col-green">FREE</span></span
-              >
-            </div>
-            <div class="total-amt order-text">
-              <span>Total Amount</span>
-              <span class="total">615</span>
-            </div>
-            <a href="./payment.html" class="place-order">PLACE ORDER</a>
-          </div>
-        </div>
-      </div>
+      
     </div>
 
     <footer class="footer d-flex f-dir-col">
@@ -108,6 +106,5 @@
       <p>&copy; 2023 by Pradip Patra</p>
     </footer>
 
-    <script src="./cart.js"></script>
   </body>
 </html>
