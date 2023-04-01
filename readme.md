@@ -1,7 +1,7 @@
 <h1>E-commerce Website Project</h1>
 This project is a simple e-commerce website that allows users to browse and purchase items. The website consists of three pages: the landing page, the cart page, and the payment gateway page.
 
-Landing Page
+#Landing Page
 The landing page displays a list of items available for purchase. Each item has a name, description, and price. Users can add items to their cart by clicking the "Add to Cart" button. The number of items in the cart is displayed on the cart icon at the top of the page. The data of items in the cart is stored in local storage.
 
 Cart Page
