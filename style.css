@@ -472,6 +472,7 @@ body {
 .number-input-parent{
   display: flex;
   /* border: 1px solid green; */
+  height: 40px;
 }
 .p-card-img{
   width: 40px;
